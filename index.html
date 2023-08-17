@@ -3,27 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
   <title>Aprendendo a aprender</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
+      <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="Logo da Practicum">
+      <h1 class="header__title">Aprendendo a Aprender</h1>
+      <h2 class="header__subtitle">
+        As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano.
+        <a class="header__link" href="">Saiba mais 🡒</a>
+      </h2>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="">
+      <div class="header__square"></div> 
 
     </header>
     <main class="content">
       <section class="description">
+        <div class="two-columns">
+          <h2 class="two-columns__brief">O maior problema da educação</h2>
+          <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                Seja na escola ou na universidade, o assunto que ninguém vai te ensinar é como se tornar autodidata. Nós repetimos exercícios específicos e memorizamos informações sem pensar e quando chega a hora do exame, o objetivo é apenas passar. Mas depois que o exame acaba, essa informação não tem mais utilidade, e não há garantia que ela será retida. No fim, nós só estamos aprendendo mesmo a passar nas nossas provas.</p>
+              <p class="two-columns__paragraph">
+                <span class="two-columns__span-accent">Aqui vai a pergunta de fato:</span> será que essa abordagem de repetição e memorização nos ajuda realmente a entender o assunto? O consenso na academia atualmente é de que não ajuda. Aliás, mais importante do que um tópico individual é saber como estudar, mas por algum motivo esta questão é sempre deixada de lado. Então, o que podemos fazer para remediar isso?</p>
+              <p class="two-columns__paragraph">
+                Bem, há várias técnicas e exercícios que podem ser aplicados ao processo educacional para ajudar a torná-lo mais eficiente e cativante. Continue lendo para descobrir alguns dos segredos do aprendizado eficaz.</p>
+          </div>
+        </div>
       </section>
 
       <section class="digits">
+        <h2 class="digits-title">Fatos e números</h2>
+        <h3 class="digits-subtitle">Sobre o cérebro e o aprendizado</h3>
+       <!-- <table class="table">
+          <tr class="table__cell">
+            <th class="table__heading">86 bilhões</th>
+            <td class="table__text">O número de neurônios no cérebro humano</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table> -->
+        
+        <ul class="table">
+          <li class="table__cell"><h3 class="table__heading">86 bilhões</h3>
+              <p class="table__text">O número de neurônios no cérebro humano</p></li>
+          <li class="table__cell"><h3 class="table__heading">420 milhões</h3>
+              <p class="table__text">O número de adultos abaixo de 25 anos sem educação suficiente para encontrar empregos - <br><br>
+                Banco Mundial, 2017</p></li>
+          <li class="table__cell"><h3 class="table__heading">73%</h3>
+              <p class="table__text">A porcentagem de adultos nos EUA que se consideram aprendizes para a vida toda - <br><br> Centro de Pesquisas Pew</p></li>
+          <li class="table__cell"><h3 class="table__heading">26 anos de idade</h3>
+              <p class="table__text">A idade com que Albert Einstein publicou o seu artigo inovador sobre a relatividade especial</p></li>
+            <li class="table__cell"><h3 class="table__heading">1,000 terabytes</h3>
+              <p class="table__text">A capacidade de armazenamento de informação de um humano</p></li>
+          <li class="table__cell"><h3 class="table__heading">1885</h3>
+              <p class="table__text">Desenvolvimento da curva de esquecimento</p></li>
+          <li class="table__cell"><h3 class="table__heading">500 trilhões</h3>
+              <p class="table__text">O número de sinapses nervosas responsáveis pelo aprendizado em um adulto humano médio</p></li>
+          <li class="table__cell"><h3 class="table__heading">1897</h3>
+              <p class="table__text">Publicação da pesquisa de Ivan Pavlov sobre condicionamento clássico</p></li>
+        </ul>
       </section>
 
       <section class="feynman">
+        <h2 class="feynman__title">A Técnica de Feynman</h2>
+        <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
+        <a class="feynman__link" href="#">Mais →</a>
+        <img class="feynman__image" src="./images/feynman.png" alt="Uma foto
+        de Richard Feynman, um físico quântico mundialmente conhecido.
+        A Técnica Feynman deriva dos seus métodos de estudo quando
+        ele era um estudante em Princeton.">
       </section>
 
-      <section class="kaufman">
+      <section class="kaufman kaufman_theme_dark">
+        <h2 class="kaufman__title kaufman__title_theme_dark">Dez princípios para adquirir habilidades de forma rápida</h2>
+        <h3 class="kaufman__subtitle kaufman__subtitle_theme_dark">por Josh Kaufman</h3>
+        <ul class="kaufman__table kaufman__table_theme_dark">
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">1</h4>
+            <p class="kaufman__text">Escolha um projeto que te traga interesse</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">2</h4>
+            <p class="kaufman__text">Foque a sua energia em uma habilidade por vez</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">3</h4>
+            <p class="kaufman__text">Defina o seu nível alvo de performance</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">4</h4>
+            <p class="kaufman__text">Desconstrua a habilidade em sub-habilidades</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">5</h4>
+            <p class="kaufman__text">Obtenha ferramentas críticas</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">6</h4>
+            <p class="kaufman__text">Elimine as barreiras para praticar</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">7</h4>
+            <p class="kaufman__text">Dedique tempo para a prática</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">8</h4>
+            <p class="kaufman__text">Crie ciclos de feedback rápidos</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">9</h4>
+            <p class="kaufman__text">Pratique usando o relógio, em intervalos curtos de tempo</p>
+          </li>
+          <li class="kaufman__cell">
+            <h4 class="kaufman__heading">10</h4>
+            <p class="kaufman__text">Dê ênfase a quantidade e velocidade</p>
+          </li>
+        </ul>
+        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Um
+        grande triângulo azul, sobre o qual Josh Kaufman reclama
+        propriedade">
       </section>
     </main>
     <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.png" alt="Logo da Practicum">
+          <p class="footer__author">&copy; 2022 Franciscus De Jong</p>
+        </div>
+        <div class="footer__column_content_about">
+          <h2 class="footer__column-heading">Sobre Practicum by Yandex</h2>
+          <ul class="footer__list">
+            <li><a class="footer__column-link" href="#">Página Inicial</a></li>
+            <li><a class="footer__column-link" href="#">Missão</a></li>
+            <li><a class="footer__column-link" href="#">Profissões</a></li>
+          </ul>
+        </div>
+        <div class="footer__column_content_social">
+          <h2 class="footer__column-heading">Mídia social</h2>
+          <ul class="footer__list">
+            <li>
+                <a class="footer__column-link" href="#" alt="Ícone do Facebook">
+                    <img class="footer__social-icons" src="./images/facebook_white.svg" alt="Logo do Facebook">Facebook
+                </a>
+            </li>
+            <li>
+                <a class="footer__column-link" href="#" alt="Ícone do Instagram">
+                    <img class="footer__social-icons" src="./images/instagram_white.svg" alt="Logo do Instagram">Instagram
+                </a>
+           </li>
+        </ul>
+        </div>
+      </div>
 
     </footer>
   </div>
