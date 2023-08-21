@@ -13,7 +13,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  border: 5px solid red;
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -26,7 +25,6 @@
   height: 31px;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
 }
 
 .logo_place_header {
@@ -37,7 +35,6 @@
 }
 
 .header__title {
-  border: 3px solid red;
   width: 730px;
   display: flex;
   flex-wrap: wrap;
@@ -51,7 +48,6 @@
 }
 
 .header__subtitle {
-  border: 3px solid red;
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -68,7 +64,6 @@
 }
 
 .header__main-illustration {
-  border: 3px solid red;
   box-sizing: border-box;
   width: 756px;
   height: 608px;
@@ -79,7 +74,6 @@
 }
 
 .header__square {
-  border: 3px solid red;
   box-sizing: border-box;
   background-color: #2f80ed;
   width: 568px;
@@ -114,14 +108,12 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  border: 3px solid red;
   min-width: 784px;
   width: 80%;
   margin: auto;
 }
 
 .two-columns__brief {
-  border: 3px solid red;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -140,12 +132,11 @@
 }
 
 .two-columns__paragraph {
-  border: 3px solid red;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0 auto;
-  text-align:start;
+  text-align: start;
 }
 
 .two-columns__span-accent {
@@ -156,11 +147,9 @@
   margin: 100px auto;
   width: 1100px;
   height: 650px;
-  border: 3px solid red;
 }
 
 .digits-title {
-  border: 3px solid red;
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -170,7 +159,6 @@
 }
 
 .digits-subtitle {
-  border: 3px solid red;
   width: 60%;
   margin: 20px auto 0;
   text-align: center;
@@ -180,7 +168,6 @@
 }
 
 .table {
-  border: 3px solid blue;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -213,14 +200,13 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  text-align: left;
+  text-align: start;
   margin: 0 auto;
 }
 
 .feynman {
   display: flex;
   justify-content: center;
-  border: 3px solid blue;
   margin-top: 100px;
   height: 790px;
   position: relative;
@@ -230,7 +216,7 @@
 .feynman__title {
   width: 775px;
   text-align: center;
-  height: 1.15;
+  line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   position: absolute;
@@ -275,14 +261,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
-  border: 3px solid blue;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 
 .kaufman__title {
-  border: 3px solid blue;
   width: 60%;
   margin: 0 auto;
   padding-top: 90px;
@@ -293,7 +277,6 @@
 }
 
 .kaufman__subtitle {
-  border: 3px solid blue;
   width: 60%;
   margin: 20px auto 0;
   text-align: center;
@@ -303,7 +286,6 @@
 }
 
 .kaufman__table {
-  border: 3px solid blue;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -340,7 +322,6 @@
 }
 
 .kaufman__triangle {
-  border: 3px solid blue;
   color: #2f80ed;
   position: absolute;
   top: 0;
@@ -368,7 +349,6 @@
 }
 
 .footer {
-  border: 3px solid red;
   background-color: #000000;
   min-height: 350px;
   display: flex;
@@ -376,7 +356,6 @@
 }
 
 .footer__columns {
-  border: 3px solid red;
   display: flex;
   justify-content: space-between;
   margin: 60px auto 40px;
@@ -384,7 +363,6 @@
 }
 
 .footer__column_content_copyright {
-  border: 3px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -392,20 +370,17 @@
 }
 
 .footer__column_content_about {
-  border: 3px solid red;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column_content_social {
-  border: 3px solid red;
   display: flex;
   flex-direction: column;
   text-align: right;
 }
 
 .footer__author {
-  border: 3px solid red;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -416,13 +391,11 @@
 }
 
 .footer__list {
-  border: 3px solid red;
   padding: 0;
   list-style: none;
 }
 
 .footer__column-heading {
-  border: 3px solid red;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -433,7 +406,8 @@
 }
 
 .footer__column-link {
-  border: 3px solid red;
+  display: flex;
+  align-items: center;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -442,7 +416,6 @@
 }
 
 .footer__social-icons {
-  border: 3px solid red;
   width: 16px;
   height: 16px;
   margin-right: 10px;
@@ -453,5 +426,4 @@
   height: 35px;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
 }
