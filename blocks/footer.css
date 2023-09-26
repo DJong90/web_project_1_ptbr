@@ -14,19 +14,19 @@
     width: 90%;
   }
   
-  .footer__column_content_copyright {
+  .footer__column_content-copyright {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 711px;
   }
   
-  .footer__column_content_about {
+  .footer__column_content-about {
     display: flex;
     flex-direction: column;
   }
   
-  .footer__column_content_social {
+  .footer__column_content-social {
     display: flex;
     flex-direction: column;
     text-align: right;
