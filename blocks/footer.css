@@ -14,19 +14,19 @@
     width: 90%;
   }
   
-  .footer__column-content_copyright {
+  .footer__column-copyright {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 711px;
   }
   
-  .footer__column-content_about {
+  .footer__column-about {
     display: flex;
     flex-direction: column;
   }
   
-  .footer__column-content_social {
+  .footer__column-social {
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -79,7 +79,7 @@
     margin-right: 10px;
   }
   
-  .logo_place_footer {
+  .logo_place-footer {
     width: 183px;
     height: 35px;
     display: flex;
