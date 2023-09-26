@@ -1,0 +1,89 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    z-index: 1;
+    /* parameters for the header section */
+  }
+  
+  .logo {
+    width: 154px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo_place-header {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 64px;
+  }
+  
+  .header__title {
+    width: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 64px;
+    justify-content:center;
+    align-self: center;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  
+  .header__subtitle {
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .header__link {
+    color: #2f80ed;
+    display: flex;
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+  .header__link:hover {
+    transition: transform 0.4s ease-in-out; 
+    opacity: 0.5;
+  }
+  
+  .header__main-illustration {
+    box-sizing: border-box;
+    width: 756px;
+    height: 608px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .header__square {
+    box-sizing: border-box;
+    background-color: #2f80ed;
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    transform: rotate(-15deg);
+    animation: rotation 20s linear infinite;
+    z-index: -1;
+  }
+  /* here we have two examples of selectors in order to remind you how to set styles for elements */
+  .header__square-pic {
+    height: 568px;
+    width: 568px;
+  }
