@@ -39,7 +39,7 @@
 }
 
 .resources__logo-link:hover {
-  transition: transform 0.4s ease-in-out; 
+  transition: transform 0.4s ease-in-out;
   opacity: 0.5;
 }
 
